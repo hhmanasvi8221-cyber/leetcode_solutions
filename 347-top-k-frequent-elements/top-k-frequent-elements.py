@@ -4,4 +4,5 @@ class Solution:
         for num in nums:
             freq[num]=freq.get(num,0)+1
         sorted_num=sorted(freq , key=freq.get , reverse = True)
-        return sorted_num[:k]
+        return sorted_num[:k
+        ]
